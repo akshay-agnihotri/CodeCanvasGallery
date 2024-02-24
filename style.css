@@ -445,3 +445,23 @@ textarea{
     }
 }
 
+
+/* ---------------------scroll- bar--------------------------------------- */
+body::-webkit-scrollbar {
+    width: 1rem;
+    height: 1em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:black;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: hsl(120 100% 20% / 1);
+    border: 0.25em solid hsl(120 75% 50% / 1);
+    border-radius: 100vw;
+  }
+  
+body::-webkit-scrollbar-thumb:hover {
+    background: hsl(120 100% 10% / 1);
+}
